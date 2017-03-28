@@ -1,111 +1,44 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Lista 4 Fundamentos de tecnologia web</title>
-	<meta charset="utf-8">
-	<style type="text/css">
-		
-		body {
-			background: url("https://drive.google.com/uc?id=0BwLNmtJf0EqEQy1QU0lHOTFjUkk");
-			background-repeat: no-repeat;
-			background-attachment: fixed;
-		}
-		.divbar {
-			position: absolute;
-			margin-top: -4.5em;
-			margin-left: 60em;
-		}
-		
-		.menu ul li {
-			display: inline;
-		}
-		.menu ul li a {
-			padding: 6px 15px;
-			display: inline-block;
-			background-color: red;
-			color: white;
-			text-decoration: none;
-			border-bottom: 1px solid;
-		}
-		.menu ul li a:hover {
-			background-color: #000000;
-			color: red;
-			transition: 0.5s;
-		}
-		h1 {
-			color: red;	
-			margin-left: 1em;	
-		}
-		h1:hover {
-			color: white;
-			transition: 0.5s;
-			text-shadow: 2px 2px 8px white;
-			text-decoration: line-through;
-			
-		}
-		
-		.div1 div {
-			position: absolute;
-			margin-top: 10px;
-		}
-		p {
-			position: relative;
-			top: 100px;
-			margin-left: 5em;
-			
-		}
-		.samcro {
-			margin-left: 12.2em; 
-		}
-		.samcro1 {
-			margin-left: 9em;
-		}
-		.samcro1:hover {
-			color: yellow;
-			text-shadow: 2px 2px 8px yellow;
-			transition: 0.3s;
-		}
-		p:hover {
-			color: red;
-			transition: 0.5s;
-			text-shadow: 2px 2px 8px red;
-		}
-		iframe {
-			margin-top: 110px;
-			margin-left: 10px;
-		}
-		
-	</style>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Sons Of Anarchy - by Vinicius Queiroz</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/grid.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<a href="index.html" class="grid-4">
+				<img src="img/logo2.png" alt="bikcraft" class="logo">
+				</a>
 
-</head>
-<body>
+				<nav class="header_menu" class="grid-12">
+					<ul>
+						<li><a href="sobre.html">Sobre </a></li>
+						<li><a href="produtos.html">Produto </a></li>
+						<li><a href="portfolio.html">Portfolio </a></li>
+						<li><a href="contato.html">Contato </a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
 
-	<h1 align="left">SAMCRO LIVES</h1>
-   
-   <div class="divbar">	
-	<nav class="menu" id="menu">
-		<ul>
-		 	<li><a href="#menu">Home</a></li>
-		 	<li><a href="#">About</a> </li>
-		 	<li><a href="#">Contact</a> </li>
-		</ul>
-
-	</nav>
-   </div>	
-	<div class="div1">
-	<font color="white">
-		 <p>  SONS OF ANARCHY - REDWOOD ORIGINAL  </p>
-		 <P class="samcro"> - SAMCRO -</P>
-		 <P class="samcro1"> ! ! ALERTA DE SPOILER ! ! </P>
-
-	</font>
-	</div>
-<!-- <video width="500" height="300" controls loop poster="poster.png"> 
-		<source src="sons.mp4" type="video/mp4">
-	</video> -->
-
-	<iframe width="500em" height="300em" src="https://www.youtube.com/embed/217K3xuo_TU" frameborder="0" allowfullscreen></iframe>
-
+		<section class="introducao">
+		<div>
+			<h1>Sons Of Anarchy</h1>
+			<blockquote class="quote_externo">
+				<p>Nunca é demais lembrar o peso e o significado destes problemas, uma vez que o fenômeno da Internet</p>
+			</blockquote>	
+		</div>
+		<a href="videos.html"> Videos</a>
+		</section>
 	
-</body>
+
+
+
+
+	</body>
 </html>
