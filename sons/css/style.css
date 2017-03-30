@@ -10,6 +10,58 @@ p {
 	font-size: 14px;
 	line-height: 20px;
 }
+
+.btn {
+	border: 3px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .1em;
+}
+
+.btn:hover {
+	color: red;
+	border-color: red;
+	transition: 0.6s;
+}
+
+.btn-preto {
+	border: 3px solid #000;
+	padding: 10px 30px;
+	color: #000;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .1em;
+}
+
+.btn-preto:hover {
+	color: red;
+	border-color: red;
+}
+
+.subtitulo {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.subtitulo:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background-color: #000;
+	margin: 8px auto;
+}
+
 /* header */
 	
 .header {
@@ -69,18 +121,79 @@ p {
 .quote_externo {
 	max-width: 400px;
 	margin: 0 auto;
+	margin-bottom: 40px;
 	color: #fff;
 	text-shadow: 1px 1px 6px;
+padding-top: 10px;
+
 }
 
 .quote_externo p {
 	font-style: italic;
 }
 
-.quote_externo p:before {
-	
+.quote_externo p:before, .quote_externo p:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background-color: #fff;
+	margin: 14px auto 10px auto;
+}
+
+.quote_externo cite {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: .1em;
 }
 
 
+/* produtos */
 
+.produtos {
+	padding: 60px 0;
+	text-align: center;
+}
 
+.produtos_lista li {
+	background: #000;
+	color: #fff;
+}
+
+.produtos_lista li h3 {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	margin-top: 20px;
+}
+
+.produtos_lista li h3:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background-color: #fff;
+	margin: 2px auto;
+
+}
+
+.produtos_lista li p {
+	padding: 10px 20px 20px 20px;
+}
+
+.produtos_icone {
+	background: red;
+	padding: 20px;
+}
+
+.call {
+	padding-top: 40px;
+	clear: both;
+}
+
+.call p {
+	margin-bottom: 20px;
+}
