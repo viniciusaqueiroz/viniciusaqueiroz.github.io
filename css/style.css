@@ -562,8 +562,9 @@ img{
 }
 
 .btn {
+  background-color: red;
 	border-radius: 15px;
-	border: 3px solid #fff;
+	border: 2px solid #b10d0d;
 	padding: 10px 18px;	
 	color: #fff;
 	font-size: 16px;
@@ -573,16 +574,16 @@ img{
 }
 
 .btn:hover {
-	color: red;
+  background-color: #b10d0d;
 	border-color: red;
 	transition: 0.6s;
 }
 
 .btn-preto {
 	border-radius: 15px;
-	border: 3px solid #000;
+	border: 2px solid #b10d0d;
 	padding: 10px 18px;
-	color: #000;
+	color: #fff;
 	font-size: 16px;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -590,7 +591,7 @@ img{
 }
 
 .btn-preto:hover {
-	color: red;
+	background-color: #b10d0d;
 	border-color: red;
 }
 
