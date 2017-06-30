@@ -935,7 +935,8 @@ padding-top: 10px;
 
 .copy {
 	width: 100%;
-	background:red;
+  	color: #fff;
+	background:#1a1a1a;
 	padding: 20px;
 }
 
