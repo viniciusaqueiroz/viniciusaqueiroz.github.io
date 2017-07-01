@@ -766,6 +766,8 @@ padding-top: 10px;
 	padding: 10px 20px 20px 20px;
 }
 
+
+
 .produtos_icone {
 	background: red;
 	padding: 20px;
@@ -800,6 +802,12 @@ padding-top: 10px;
 
 .portfolio_lista li:last-child {
 	padding-top: 20px;
+}
+
+.portfolio ul li img:hover {
+  opacity: .40;
+  transition: .4s;
+  cursor: pointer;
 }
 
 .portfolio .call p {
